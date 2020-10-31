@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ChatClient
+namespace Chat.Client
 {
     public partial class MainForm : Form
     {

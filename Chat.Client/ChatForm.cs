@@ -11,7 +11,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace ChatClient
+namespace Chat.Client
 {
     public partial class ChatForm : Form
     {

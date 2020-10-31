@@ -1,4 +1,4 @@
-﻿namespace ChatClient
+﻿namespace Chat.Client
 {
     partial class MainForm
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ChatServer
+namespace Chat.Server
 {
     public enum Status
     {
