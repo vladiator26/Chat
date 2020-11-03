@@ -1,15 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Chat.Server.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Chat.Server
 {
-    class AppContext : DbContext
+    public class ApplicationContext : DbContext
     {
             public DbSet<User> Users { get; set; }
 
-            public AppContext()
+            public ApplicationContext()
             {
                 Database.EnsureCreated();
             }

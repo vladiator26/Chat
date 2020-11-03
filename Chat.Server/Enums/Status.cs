@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Chat.Server
+﻿namespace Chat.Server.Enums
 {
     public enum Status
     {
